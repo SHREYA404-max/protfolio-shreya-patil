@@ -28,8 +28,8 @@ export const personalInfo = {
   name: 'Shreya Patil',
   title: 'AIML Student',
   tagline: 'Building intelligent solutions at the intersection of AI, Machine Learning & Software Engineering.',
-  email: 'shreya.patil@example.com',
-  github: 'https://github.com/shreyapatil',
+  email: 'shreyapatil4871@gmail.com',
+  github: 'https://github.com/SHREYA404-max',
   linkedin: 'https://linkedin.com/in/shreyapatil',
   resumeUrl: '/resume.pdf',
 };
@@ -42,33 +42,27 @@ export const aboutData = {
 // ---------- Skills ----------
 export const skillsData = [
   {
+    category: 'Computer Skills',
+    skills: [
+      { name: 'Python & Data Science', icon: Code2 },
+      { name: 'Basic Machine Learning', icon: Brain },
+      { name: 'Basic Game Development', icon: Cpu },
+      { name: 'SQL & Databases', icon: Database },
+    ],
+  },
+  {
+    category: 'General Skills',
+    skills: [
+      { name: 'Leadership', icon: Award },
+      { name: 'Quick Learner', icon: Sparkles },
+      { name: 'Management', icon: Trophy },
+    ],
+  },
+  {
     category: 'Languages',
     skills: [
-      { name: 'Python', icon: Code2 },
-      { name: 'JavaScript', icon: Terminal },
-      { name: 'Java', icon: Code2 },
-      { name: 'SQL', icon: Database },
-      { name: 'C/C++', icon: Code2 },
-    ],
-  },
-  {
-    category: 'AI / ML',
-    skills: [
-      { name: 'TensorFlow', icon: Brain },
-      { name: 'PyTorch', icon: Cpu },
-      { name: 'Scikit-Learn', icon: BarChart3 },
-      { name: 'OpenCV', icon: Sparkles },
-      { name: 'NLP', icon: Brain },
-    ],
-  },
-  {
-    category: 'Frameworks & Tools',
-    skills: [
-      { name: 'React', icon: Layers },
-      { name: 'Node.js', icon: Globe },
-      { name: 'Flask', icon: Box },
-      { name: 'Git & GitHub', icon: GitBranch },
-      { name: 'Figma', icon: Palette },
+      { name: 'Hindi', icon: Globe },
+      { name: 'English', icon: Globe },
     ],
   },
 ];
@@ -86,15 +80,21 @@ export const techStackData = [
 export const educationData = [
   {
     degree: 'B.Tech in Artificial Intelligence & Machine Learning',
-    institution: 'Your University',
+    institution: 'Acropolis Institute of Technology and Research',
     year: '2023 – 2027',
-    description: 'Focused on machine learning, deep learning, computer vision, and natural language processing.',
+    description: 'AIML career, in progress.',
   },
   {
-    degree: 'Higher Secondary (XII)',
-    institution: 'Your School',
-    year: '2021 – 2023',
-    description: 'Science stream with Computer Science.',
+    degree: 'Higher Secondary Schooling',
+    institution: 'Brilliant Academy',
+    year: '2023 – 2024',
+    description: 'Focused on high school curriculum and foundational science subjects.',
+  },
+  {
+    degree: 'Secondary Schooling',
+    institution: 'St. Joseph\'s School',
+    year: '2010 – 2023',
+    description: 'Foundational education and early academic achievements.',
   },
 ];
 
@@ -133,6 +133,6 @@ export const navLinks = [
   { label: 'Home', href: '#home' },
   { label: 'About', href: '#about' },
   { label: 'Skills', href: '#skills' },
-  { label: 'Credentials', href: '#credentials' },
+  { label: 'Education', href: '#credentials' },
   { label: 'Contact', href: '#contact' },
 ];
