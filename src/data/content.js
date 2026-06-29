@@ -134,5 +134,6 @@ export const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'Skills', href: '#skills' },
   { label: 'Education', href: '#credentials' },
+  { label: 'Achievements', href: '#achievements' },
   { label: 'Contact', href: '#contact' },
 ];

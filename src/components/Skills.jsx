@@ -1,7 +1,7 @@
 import { motion, useReducedMotion } from 'framer-motion';
-import { Wrench, Zap } from 'lucide-react';
+import { Wrench } from 'lucide-react';
 import SectionWrapper, { childVariants, childNoMotionVariants } from './SectionWrapper';
-import { skillsData, techStackData } from '../data/content';
+import { skillsData } from '../data/content';
 import './Skills.css';
 
 export default function Skills() {
@@ -38,21 +38,6 @@ export default function Skills() {
           </motion.div>
         ))}
       </div>
-
-      {/* Tech Stack */}
-      <motion.div variants={variants} className="skills__techstack">
-        <div className="skills__techstack-header">
-          <Zap size={14} />
-          <span>Built with</span>
-        </div>
-        <div className="skills__techstack-list">
-          {techStackData.map((tech) => (
-            <span key={tech.name} className="skills__techstack-item">
-              {tech.name}
-            </span>
-          ))}
-        </div>
-      </motion.div>
     </SectionWrapper>
   );
 }

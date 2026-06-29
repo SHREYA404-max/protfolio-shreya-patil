@@ -33,37 +33,7 @@
   color: var(--color-text);
 }
 
-/* Tech Stack */
-.skills__techstack {
-  margin-top: var(--space-12);
-  padding-top: var(--space-8);
-  border-top: 1px solid var(--color-border);
-}
 
-.skills__techstack-header {
-  display: flex;
-  align-items: center;
-  gap: var(--space-2);
-  font-size: var(--text-xs);
-  color: var(--color-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  margin-bottom: var(--space-4);
-}
-
-.skills__techstack-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-2);
-}
-
-.skills__techstack-item {
-  padding: var(--space-2) var(--space-4);
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-border);
-  font-size: var(--text-sm);
-  color: var(--color-muted);
-}
 
 /* ---------- Responsive ---------- */
 @media (max-width: 768px) {
