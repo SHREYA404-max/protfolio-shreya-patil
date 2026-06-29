@@ -27,7 +27,7 @@ import {
 export const personalInfo = {
   name: 'Shreya Patil',
   title: 'AIML Student',
-  tagline: 'Building intelligent solutions at the intersection of AI, Machine Learning & Software Engineering.',
+  tagline: 'Building intelligent solutions at the intersection of AI, Machine Learning, Game Development & Software Engineering.',
   email: 'shreyapatil4871@gmail.com',
   github: 'https://github.com/SHREYA404-max',
   linkedin: 'https://linkedin.com/in/shreya-patil-903521395',
@@ -81,7 +81,7 @@ export const educationData = [
   {
     degree: 'B.Tech in Artificial Intelligence & Machine Learning',
     institution: 'Acropolis Institute of Technology and Research',
-    year: '2023 – 2027',
+    year: '2024– 2028',
     description: 'AIML career, in progress.',
   },
   {
@@ -108,16 +108,22 @@ export const certificationsData = [
     image: '/kriyeta-certificate.jpg',
   },
   {
-    name: 'Deep Learning with TensorFlow',
-    issuer: 'Google',
-    year: '2024',
-    verifyLink: 'https://grow.google',
+    name: 'Artificial Intelligence Foundation Certification',
+    issuer: 'Infosys Springboard',
+    year: '2026',
+    verifyLink: '/ai-foundation-certificate.pdf',
   },
   {
-    name: 'Python for Data Science',
-    issuer: 'IBM',
-    year: '2023',
-    verifyLink: 'https://ibm.com',
+    name: 'Machine Learning Using Python',
+    issuer: 'Simplilearn SkillUP',
+    year: '2026',
+    verifyLink: '/machine-learning-python-certificate.pdf',
+  },
+  {
+    name: 'Ethical Hacking & Cybersecurity Workshop',
+    issuer: 'VaultofCodes',
+    year: '2025',
+    verifyLink: '/ethical-hacking-certificate.pdf',
   },
 ];
 
