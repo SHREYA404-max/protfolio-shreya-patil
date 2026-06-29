@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  min-height: 100vh;
+  min-height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,7 +13,7 @@
   grid-template-columns: 1fr auto;
   gap: var(--space-12);
   align-items: center;
-  min-height: calc(100vh - var(--nav-height) - 4rem);
+  min-height: calc(85vh - var(--nav-height) - 2rem);
 }
 
 .hero__content {
