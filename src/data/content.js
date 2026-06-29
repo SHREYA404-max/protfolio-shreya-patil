@@ -104,19 +104,19 @@ export const certificationsData = [
     name: 'Machine Learning Specialization',
     issuer: 'Coursera – Stanford',
     year: '2024',
-    verifyLink: '#',
+    verifyLink: 'https://coursera.org',
   },
   {
     name: 'Deep Learning with TensorFlow',
     issuer: 'Google',
     year: '2024',
-    verifyLink: '#',
+    verifyLink: 'https://grow.google',
   },
   {
     name: 'Python for Data Science',
     issuer: 'IBM',
     year: '2023',
-    verifyLink: '#',
+    verifyLink: 'https://ibm.com',
   },
 ];
 
