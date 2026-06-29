@@ -30,7 +30,7 @@ export const personalInfo = {
   tagline: 'Building intelligent solutions at the intersection of AI, Machine Learning & Software Engineering.',
   email: 'shreyapatil4871@gmail.com',
   github: 'https://github.com/SHREYA404-max',
-  linkedin: 'https://www.linkedin.com/in/shreya-patil-903521395?utm_source=share_via&utm_content=profile&utm_medium=member_android',
+  linkedin: 'https://linkedin.com/in/shreya-patil-903521395',
   resumeUrl: '/resume.pdf',
 };
 
