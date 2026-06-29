@@ -1,0 +1,6 @@
+.about__bio {
+  font-size: var(--text-base);
+  color: var(--color-text-secondary);
+  line-height: 1.9;
+  max-width: 640px;
+}
