@@ -101,10 +101,11 @@ export const educationData = [
 // ---------- Credentials: Certifications ----------
 export const certificationsData = [
   {
-    name: 'Machine Learning Specialization',
-    issuer: 'Coursera – Stanford',
-    year: '2024',
-    verifyLink: 'https://coursera.org',
+    name: 'KRIYETA 5.0 Hackathon Participation',
+    issuer: 'Acropolis Institute, IEEE SIGHT & AIM',
+    year: '2026',
+    verifyLink: '/kriyeta-certificate.jpg',
+    image: '/kriyeta-certificate.jpg',
   },
   {
     name: 'Deep Learning with TensorFlow',

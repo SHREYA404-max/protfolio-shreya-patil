@@ -31,33 +31,41 @@ export default function Achievements() {
             variants={variants}
             whileHover={prefersReducedMotion ? {} : { y: -4 }}
           >
-            <div className="achievements__card-header">
-              <div className="achievements__icon-wrapper">
-                <Award size={20} />
+            {cert.image && (
+              <div className="achievements__card-image">
+                <img src={cert.image} alt={cert.name} />
               </div>
-              {cert.verifyLink && cert.verifyLink !== '#' && (
-                <a
-                  href={cert.verifyLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="achievements__link"
-                  aria-label={`Verify ${cert.name}`}
-                >
-                  <ExternalLink size={16} />
-                </a>
-              )}
-            </div>
+            )}
 
-            <div className="achievements__card-body">
-              <h4 className="achievements__cert-name">{cert.name}</h4>
-              <p className="achievements__cert-issuer">{cert.issuer}</p>
-            </div>
+            <div className="achievements__card-content">
+              <div className="achievements__card-header">
+                <div className="achievements__icon-wrapper">
+                  <Award size={18} />
+                </div>
+                {cert.verifyLink && cert.verifyLink !== '#' && (
+                  <a
+                    href={cert.verifyLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="achievements__link"
+                    aria-label={`Verify ${cert.name}`}
+                  >
+                    <ExternalLink size={16} />
+                  </a>
+                )}
+              </div>
 
-            <div className="achievements__card-footer">
-              <span className="achievements__cert-year">
-                <Calendar size={12} />
-                {cert.year}
-              </span>
+              <div className="achievements__card-body">
+                <h4 className="achievements__cert-name">{cert.name}</h4>
+                <p className="achievements__cert-issuer">{cert.issuer}</p>
+              </div>
+
+              <div className="achievements__card-footer">
+                <span className="achievements__cert-year">
+                  <Calendar size={12} />
+                  {cert.year}
+                </span>
+              </div>
             </div>
           </motion.div>
         ))}
